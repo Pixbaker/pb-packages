@@ -14,6 +14,28 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.1.1",
+          "released": "2026-11-24",
+          "changelog": [
+            {
+              "type": "Fixed",
+              "text": "Max 2027: hák se zapisoval do složky cache místo ENU."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pbpkg-v0.1.1/com.pixbakers.pbpkg-0.1.1-any.pbpkg",
+              "sha256": "e826d9c2f20aca86170ed9602741ccb4e294359f42e34d90f69778491687ea8d",
+              "size": 23062
+            }
+          ]
+        },
+        {
           "version": "0.1.0",
           "released": "2026-11-24",
           "changelog": [
