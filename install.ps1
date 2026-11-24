@@ -48,8 +48,10 @@ try {
     Remove-Item -Recurse -Force $temp -ErrorAction SilentlyContinue
 }
 
-# 4. Hooks into every 3ds Max 2025+ profile.
+# 4. Register the manager as a package (versions + rollback), then hooks into every 3ds Max 2025+ profile.
 $env:PYTHONPATH = $manager
+& $python -m pbpkg install $packageId
+if ($LASTEXITCODE -ne 0) { Write-Warning 'PB Package Manager: registering the manager package failed, using the seed copy.' }
 & $python -m pbpkg install-hooks
 if ($LASTEXITCODE -eq 3) {
     Write-Warning "PB Package Manager $($version.version) installed, but 3ds Max has no user profile yet. Start 3ds Max once, close it and run this installer again."
