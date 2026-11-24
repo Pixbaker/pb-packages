@@ -14,6 +14,28 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.2.3",
+          "released": "2026-11-24",
+          "changelog": [
+            {
+              "type": "Fixed",
+              "text": "Rozbitý pbpkg.json (hlavně u vývojové složky) se ukáže jako chyba, místo aby nástroj potichu zmizel."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pbpkg-v0.2.3/com.pixbakers.pbpkg-0.2.3-any.pbpkg",
+              "sha256": "921a0b757070b5ceeeeb9334b8cf0cbc94530b698c60cd721a4754b3d480d95d",
+              "size": 40917
+            }
+          ]
+        },
+        {
           "version": "0.2.2",
           "released": "2026-11-24",
           "changelog": [
