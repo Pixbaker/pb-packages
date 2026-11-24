@@ -51,5 +51,9 @@ try {
 # 4. Hooks into every 3ds Max 2025+ profile.
 $env:PYTHONPATH = $manager
 & $python -m pbpkg install-hooks
+if ($LASTEXITCODE -eq 3) {
+    Write-Warning "PB Package Manager $($version.version) installed, but 3ds Max has no user profile yet. Start 3ds Max once, close it and run this installer again."
+    return
+}
 if ($LASTEXITCODE -ne 0) { throw 'PB Package Manager: writing Max hooks failed.' }
 Write-Host "PB Package Manager $($version.version) installed to $manager. Restart 3ds Max."
