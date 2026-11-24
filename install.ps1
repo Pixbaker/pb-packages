@@ -49,10 +49,11 @@ try {
 }
 
 # 4. Register the manager as a package (versions + rollback), then hooks into every 3ds Max 2025+ profile.
-$env:PYTHONPATH = $manager
-& $python -m pbpkg install $packageId
+# 3ds Max 2027 python.exe overrides PYTHONPATH, so put the manager on sys.path directly.
+$pbpkg = "import sys,runpy;sys.path.insert(0,r'$manager');runpy.run_module('pbpkg',run_name='__main__')"
+& $python -c $pbpkg install $packageId
 if ($LASTEXITCODE -ne 0) { Write-Warning 'PB Package Manager: registering the manager package failed, using the seed copy.' }
-& $python -m pbpkg install-hooks
+& $python -c $pbpkg install-hooks
 if ($LASTEXITCODE -eq 3) {
     Write-Warning "PB Package Manager $($version.version) installed, but 3ds Max has no user profile yet. Start 3ds Max once, close it and run this installer again."
     return
