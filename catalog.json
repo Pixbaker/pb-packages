@@ -372,6 +372,42 @@
           ]
         }
       ]
+    },
+    {
+      "id": "com.pixbakers.sm-presety",
+      "name": "PB SM Presety",
+      "author": "Pixbakers",
+      "description": "Presety pro Pulze Scene Manager 3: uložit složku nebo setup jako preset (i se skripty) a načíst ho do jiné scény. Presety leží ve W:\\=Scene Manager\\Presety.",
+      "homepage": "",
+      "license": {
+        "type": "free"
+      },
+      "purchase_url": null,
+      "visibility": "listed",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "released": "2026-11-25",
+          "changelog": [
+            {
+              "type": "Added",
+              "text": "První verze: uložení a načtení presetů Scene Manageru 3 včetně skriptů."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.sm-presety-v0.1.0/com.pixbakers.sm-presety-0.1.0-any.pbpkg",
+              "sha256": "03e6d5f8eccf0a7def65d1616a972a16c3b148c01467e20f5ebb433256d6be9e",
+              "size": 4733
+            }
+          ]
+        }
+      ]
     }
   ]
 }
