@@ -294,6 +294,84 @@
           ]
         }
       ]
+    },
+    {
+      "id": "com.pixbakers.scene-optimizer",
+      "name": "PB Scene Optimizer",
+      "author": "Pixbakers",
+      "description": "Lighter, faster-loading scenes: heavy meshes to Corona Proxy, downsized texture copies with one-click relink, before/after report.",
+      "homepage": "",
+      "license": {
+        "type": "free"
+      },
+      "purchase_url": null,
+      "visibility": "listed",
+      "versions": [
+        {
+          "version": "0.4.1",
+          "released": "2026-11-24",
+          "changelog": [
+            {
+              "type": "Changed",
+              "text": "Relink to originals asks twice: Max is blocked ~1.5 min while Corona reloads full-resolution maps."
+            },
+            {
+              "type": "Added",
+              "text": "Overview tab: one scan flags heavy meshes, oversized textures, hidden full-mesh proxies and Forest Pack."
+            },
+            {
+              "type": "Added",
+              "text": "Hidden proxies -> point cloud preview (visible proxies untouched)."
+            },
+            {
+              "type": "Added",
+              "text": "Measure last opens from Max.log; downsize only the selected texture rows."
+            },
+            {
+              "type": "Fixed",
+              "text": "Max 2027: texture scan found no maps; JPEG copies of noisy normal maps failed."
+            },
+            {
+              "type": "Changed",
+              "text": "Texture headers read in 16 threads, copies written in 8."
+            },
+            {
+              "type": "Added",
+              "text": "Objects: heaviest geometry, Corona Proxy conversion."
+            },
+            {
+              "type": "Added",
+              "text": "Textures: downsized copies (2K/4K) with one-click relink to originals and back."
+            },
+            {
+              "type": "Added",
+              "text": "Report: before/after log per action."
+            }
+          ],
+          "builds": [
+            {
+              "python": "cp311",
+              "max": {
+                "min": 2025,
+                "max": 2026
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.scene-optimizer-v0.4.1/com.pixbakers.scene-optimizer-0.4.1-cp311.pbpkg",
+              "sha256": "702094e9ab2727783e46640edb9c1c2d4b4065bb7ca14ed58fd9f87503f0ca04",
+              "size": 7177143
+            },
+            {
+              "python": "cp313",
+              "max": {
+                "min": 2027,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.scene-optimizer-v0.4.1/com.pixbakers.scene-optimizer-0.4.1-cp313.pbpkg",
+              "sha256": "33c5b8a06bbd08d015a8456c05605a00056159f56aa66dead129950a9d189cd3",
+              "size": 7184375
+            }
+          ]
+        }
+      ]
     }
   ]
 }
