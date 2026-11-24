@@ -164,6 +164,42 @@
           ]
         }
       ]
+    },
+    {
+      "id": "com.pixbakers.nlm",
+      "name": "NLM",
+      "author": "Pixbakers",
+      "description": "PB Nested Layer Manager a PB Attach (hromadný attach výběru).",
+      "homepage": "",
+      "license": {
+        "type": "free"
+      },
+      "purchase_url": null,
+      "visibility": "listed",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "released": "2026-11-24",
+          "changelog": [
+            {
+              "type": "Added",
+              "text": "Distribuce přes PB Package Manager."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2027,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.nlm-v0.1.0/com.pixbakers.nlm-0.1.0-any.pbpkg",
+              "sha256": "f8ef0faa5cff6ac97ef7e433a1900d32d72cd9e7435426fbee0de9b2970cc8c2",
+              "size": 91258
+            }
+          ]
+        }
+      ]
     }
   ]
 }
