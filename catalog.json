@@ -386,6 +386,32 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.1.1",
+          "released": "2026-11-25",
+          "changelog": [
+            {
+              "type": "Changed",
+              "text": "Neuložená scéna: při načtení presetu se nástroj zeptá na složku zakázky."
+            },
+            {
+              "type": "Added",
+              "text": "První verze: uložení a načtení presetů Scene Manageru 3 včetně skriptů."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.sm-presety-v0.1.1/com.pixbakers.sm-presety-0.1.1-any.pbpkg",
+              "sha256": "daa48870fccdc35496036c772c3747b3584b2742ffdbedd13010fd68b858194c",
+              "size": 4984
+            }
+          ]
+        },
+        {
           "version": "0.1.0",
           "released": "2026-11-25",
           "changelog": [
