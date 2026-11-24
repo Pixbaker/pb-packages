@@ -14,6 +14,28 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.2.1",
+          "released": "2026-11-24",
+          "changelog": [
+            {
+              "type": "Fixed",
+              "text": "Opravy po recenzi: balíčky jen pro jiný Max nerozbijí toolbar, operace v panelu jedna po druhé, spolehlivější návrat na předchozí verzi, nástroj nemůže ukončit Max."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pbpkg-v0.2.1/com.pixbakers.pbpkg-0.2.1-any.pbpkg",
+              "sha256": "e919182ec322909eebcedbdee89ad2df9ff115fbe4fc27c53f5dd80e0650ec9e",
+              "size": 40745
+            }
+          ]
+        },
+        {
           "version": "0.2.0",
           "released": "2026-11-24",
           "changelog": [
