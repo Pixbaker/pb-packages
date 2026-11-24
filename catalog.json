@@ -36,6 +36,42 @@
           ]
         }
       ]
+    },
+    {
+      "id": "com.pixbakers.hello",
+      "name": "Hello",
+      "author": "Pixbakers",
+      "description": "Testovací balíček správce (skrytý).",
+      "homepage": "",
+      "license": {
+        "type": "free"
+      },
+      "purchase_url": null,
+      "visibility": "hidden",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "released": "2026-11-24",
+          "changelog": [
+            {
+              "type": "Added",
+              "text": "První verze."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.hello-v0.1.0/com.pixbakers.hello-0.1.0-any.pbpkg",
+              "sha256": "1317dd3ffb36a4cd52ce01c885f1e7e8ed2d5adfeab0986c71a74ec37a9d8529",
+              "size": 1126
+            }
+          ]
+        }
+      ]
     }
   ]
 }
