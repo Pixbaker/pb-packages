@@ -14,6 +14,28 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.1.2",
+          "released": "2026-11-24",
+          "changelog": [
+            {
+              "type": "Fixed",
+              "text": "Opravy po recenzi: návrat na předchozí verzi, přechody mezi buildy, přenos nastavení, Python 3.11, kolize maker, háky v UTF-8 s BOM, instalace na PC bez profilu Maxu."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pbpkg-v0.1.2/com.pixbakers.pbpkg-0.1.2-any.pbpkg",
+              "sha256": "d1ce123088c33f1c80a7682b9700ac4a5500d661b4079465050a729e10fa01fa",
+              "size": 23976
+            }
+          ]
+        },
+        {
           "version": "0.1.1",
           "released": "2026-11-24",
           "changelog": [
