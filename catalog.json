@@ -200,6 +200,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "com.pixbakers.pb-ai-render",
+      "name": "PB AI Render",
+      "author": "Pixbakers",
+      "description": "AI dotažení renderu přímo z 3ds Maxu.",
+      "homepage": "",
+      "license": {
+        "type": "free"
+      },
+      "purchase_url": null,
+      "visibility": "listed",
+      "versions": [
+        {
+          "version": "0.3.9",
+          "released": "2026-11-24",
+          "changelog": [
+            {
+              "type": "Added",
+              "text": "Distribuce přes PB Package Manager, nově i pro 3ds Max 2025."
+            }
+          ],
+          "builds": [
+            {
+              "python": "cp311",
+              "max": {
+                "min": 2025,
+                "max": 2026
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pb-ai-render-v0.3.9/com.pixbakers.pb-ai-render-0.3.9-cp311.pbpkg",
+              "sha256": "c9b93ed245fcac95be97312dae858da623b7062809cb5effbc55042c44f9b47b",
+              "size": 19054937
+            },
+            {
+              "python": "cp313",
+              "max": {
+                "min": 2027,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pb-ai-render-v0.3.9/com.pixbakers.pb-ai-render-0.3.9-cp313.pbpkg",
+              "sha256": "62dad4a1267c577dd990db55ce94ba050c9c7be134de79621791231e3258992b",
+              "size": 18908581
+            }
+          ]
+        }
+      ]
     }
   ]
 }
