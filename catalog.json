@@ -14,6 +14,32 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.2.2",
+          "released": "2026-11-24",
+          "changelog": [
+            {
+              "type": "Fixed",
+              "text": "Nástroj se nabízí a spouští jen ve verzích Maxu, které jeho manifest podporuje."
+            },
+            {
+              "type": "Added",
+              "text": "Doctor pozná i ruční instalaci PB AI Render; návod pro autory balíčků."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pbpkg-v0.2.2/com.pixbakers.pbpkg-0.2.2-any.pbpkg",
+              "sha256": "322c5c33cb12ade7fe5abada3597d37fa40f740de7137967eb65d9c05a76bb9b",
+              "size": 40858
+            }
+          ]
+        },
+        {
           "version": "0.2.1",
           "released": "2026-11-24",
           "changelog": [
