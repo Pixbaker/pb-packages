@@ -1,4 +1,41 @@
 {
   "schema": 1,
-  "packages": []
+  "packages": [
+    {
+      "id": "com.pixbakers.pbpkg",
+      "name": "PB Package Manager",
+      "author": "Pixbakers",
+      "description": "Správce balíčků (skriptů a pluginů) Pixbakers pro 3ds Max.",
+      "homepage": "https://github.com/Pixbaker/pb-packages",
+      "license": {
+        "type": "free"
+      },
+      "purchase_url": null,
+      "visibility": "listed",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "released": "2026-11-24",
+          "changelog": [
+            {
+              "type": "Added",
+              "text": "První verze: jádro, příkazová řádka, instalace a aktualizace z katalogu pb-packages."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pbpkg-v0.1.0/com.pixbakers.pbpkg-0.1.0-any.pbpkg",
+              "sha256": "4fb135132526b79b70afb9c23af0ec4603065a52436490842b7e09e433c079de",
+              "size": 22857
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
