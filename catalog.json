@@ -14,6 +14,32 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.2.0",
+          "released": "2026-11-24",
+          "changelog": [
+            {
+              "type": "Added",
+              "text": "Panel správce v Maxu (Catalog / Installed / Updates) a toolbar s nástroji."
+            },
+            {
+              "type": "Added",
+              "text": "Kontrola aktualizací na pozadí a návrat na předchozí verzi správce, když nová nenastartuje."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pbpkg-v0.2.0/com.pixbakers.pbpkg-0.2.0-any.pbpkg",
+              "sha256": "9d14113a69658d800246e70524fafa1dcceea641bceed1eeb959b719b9531c10",
+              "size": 39492
+            }
+          ]
+        },
+        {
           "version": "0.1.2",
           "released": "2026-11-24",
           "changelog": [
