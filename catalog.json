@@ -226,6 +226,32 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.1.1",
+          "released": "2026-11-25",
+          "changelog": [
+            {
+              "type": "Fixed",
+              "text": "NLM uz nevola vynuceny gc (Garbage Collection Error ve velkych scenach) a prezije neplatny stary NodeEventCallback."
+            },
+            {
+              "type": "Added",
+              "text": "Distribuce přes PB Package Manager."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2027,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.nlm-v0.1.1/com.pixbakers.nlm-0.1.1-any.pbpkg",
+              "sha256": "7aa153a956f00cd0dfd480d03dbce1e1ff91701cad9a9bfcc8b45f201952b05d",
+              "size": 91673
+            }
+          ]
+        },
+        {
           "version": "0.1.0",
           "released": "2026-11-24",
           "changelog": [
