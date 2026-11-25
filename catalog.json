@@ -412,6 +412,44 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.2.0",
+          "released": "2026-11-25",
+          "changelog": [
+            {
+              "type": "Added",
+              "text": "Po ulozeni sceny se tokeny zakazky v SM doplni samy (sablona v maxstartu). Ulozeni presetu zakazku nahradi tokeny."
+            },
+            {
+              "type": "Added",
+              "text": "Token {{zakazka}} = jmeno sceny bez data a cisla verze."
+            },
+            {
+              "type": "Added",
+              "text": "Použít na…: preset na existující složku nebo setup, jeho ostatní skripty zůstanou."
+            },
+            {
+              "type": "Changed",
+              "text": "Neuložená scéna: při načtení presetu se nástroj zeptá na složku zakázky."
+            },
+            {
+              "type": "Added",
+              "text": "První verze: uložení a načtení presetů Scene Manageru 3 včetně skriptů."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.sm-presety-v0.2.0/com.pixbakers.sm-presety-0.2.0-any.pbpkg",
+              "sha256": "c2ce4508876af6d7d212345170aa32c4e1c2d909481f4ddd1fd98ce59702a114",
+              "size": 6516
+            }
+          ]
+        },
+        {
           "version": "0.1.3",
           "released": "2026-11-25",
           "changelog": [
