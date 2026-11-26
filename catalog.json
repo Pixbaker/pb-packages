@@ -576,6 +576,76 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.5.0",
+          "released": "2026-11-26",
+          "changelog": [
+            {
+              "type": "Changed",
+              "text": "Corona Color Correct instead of Max Color Correction (exposure in EV works on HDR); REFLECT and REFRACT take controls from VISIBLE."
+            },
+            {
+              "type": "Added",
+              "text": "Update converts old Max Color Correction (+ Output) to Corona Color Correct: Output amount becomes exposure, saturation is carried over."
+            },
+            {
+              "type": "Changed",
+              "text": "Sun button shows the sun name and selects it."
+            },
+            {
+              "type": "Changed",
+              "text": "Two steps per camera: 1 Sun (create or select +++cSUN_<camera>), 2 HDRI (create or update); bulk buttons for checked cameras."
+            },
+            {
+              "type": "Added",
+              "text": "Pick button on each camera row selects the camera in the scene."
+            },
+            {
+              "type": "Changed",
+              "text": "Light Scene Manager-like look: card table, teal accents, colored state."
+            },
+            {
+              "type": "Fixed",
+              "text": "Slate view HDRI keeps the user layout: only missing nodes are added below, existing ones never move."
+            },
+            {
+              "type": "Added",
+              "text": "Update names: after renaming cameras, renames their HDRI, CC nodes and sun (camera keeps its sun by node handle)."
+            },
+            {
+              "type": "Added",
+              "text": "HDRI shared by several cameras is named HDRI_SHARED_<file>; changing it for one camera splits off its own copy."
+            },
+            {
+              "type": "Added",
+              "text": "Nodes are laid out in the Slate Material Editor view HDRI, one block per camera."
+            },
+            {
+              "type": "Changed",
+              "text": "Rows without an HDRI file show the state: missing HDRI file."
+            },
+            {
+              "type": "Added",
+              "text": "Camera list with HDRI file and rotation per camera; Apply builds or updates the setup (one undo step)."
+            },
+            {
+              "type": "Added",
+              "text": "Missing +++cSUN_<camera> is created on and targeted in layer ....SUN, copying +++cSUN."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.camera-hdri-v0.5.0/com.pixbakers.camera-hdri-0.5.0-any.pbpkg",
+              "sha256": "7ffb9f9b92320dc487c96984d33eba0eacff9305f6ceb8eae060d98ffdbb983b",
+              "size": 12475
+            }
+          ]
+        },
+        {
           "version": "0.4.1",
           "released": "2026-11-26",
           "changelog": [
