@@ -274,6 +274,40 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.2.1",
+          "released": "2026-11-26",
+          "changelog": [
+            {
+              "type": "Changed",
+              "text": "Velká ikona do toolbaru ve stylu Scene Manageru (z design kitu PB UI)."
+            },
+            {
+              "type": "Changed",
+              "text": "0.2.0: nový vzhled ve stylu Scene Manageru (světlé/tmavé téma, angličtina, společné pro nástroje Pixbakers), plné vektorové ikony, barvy složek."
+            },
+            {
+              "type": "Fixed",
+              "text": "NLM uz nevola vynuceny gc (Garbage Collection Error ve velkych scenach) a prezije neplatny stary NodeEventCallback."
+            },
+            {
+              "type": "Added",
+              "text": "Distribuce přes PB Package Manager."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2027,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.nlm-v0.2.1/com.pixbakers.nlm-0.2.1-any.pbpkg",
+              "sha256": "740d25d4a452dc4d2d72dbc3c4d9966bf623b07f391ef1b12d0f99fdc2dc1faf",
+              "size": 109310
+            }
+          ]
+        },
+        {
           "version": "0.2.0",
           "released": "2026-11-26",
           "changelog": [
