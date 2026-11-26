@@ -14,6 +14,32 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.4.0",
+          "released": "2026-11-26",
+          "changelog": [
+            {
+              "type": "Changed",
+              "text": "Panel jako karty nástrojů s velkými ikonami, hlavička s aktualizacemi a nastavením; správce a PB UI nejsou mezi nástroji."
+            },
+            {
+              "type": "Changed",
+              "text": "Tlačítka nástrojů v liště Maxu dostávají velké ikony (24–48 px podle DPI) jako Scene Manager."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pbpkg-v0.4.0/com.pixbakers.pbpkg-0.4.0-any.pbpkg",
+              "sha256": "466fb30444a38cc3e3cb60c8ec5de357af915ff66455d813b89cf0f19fc31dfa",
+              "size": 53119
+            }
+          ]
+        },
+        {
           "version": "0.3.1",
           "released": "2026-11-26",
           "changelog": [
