@@ -14,6 +14,28 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.5.3",
+          "released": "2026-11-27",
+          "changelog": [
+            {
+              "type": "Fixed",
+              "text": "Po instalaci nebo aktualizaci nástroje se staré moduly zahodí, nová verze naběhne při dalším spuštění bez restartu Maxu."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pbpkg-v0.5.3/com.pixbakers.pbpkg-0.5.3-any.pbpkg",
+              "sha256": "05a3c42c70350a38f03650a66c9ce0889f3633e410009a7b68ab651ad33af327",
+              "size": 61998
+            }
+          ]
+        },
+        {
           "version": "0.5.2",
           "released": "2026-11-26",
           "changelog": [
