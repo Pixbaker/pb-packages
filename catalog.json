@@ -607,7 +607,7 @@
       "id": "com.pixbakers.scene-optimizer",
       "name": "PB Scene Optimizer",
       "author": "Pixbakers",
-      "description": "Lighter, faster-loading scenes: heavy meshes to Corona Proxy, downsized texture copies with one-click relink, before/after report.",
+      "description": "Lighter, faster-loading scenes: heavy meshes to Corona Proxy, downsized texture copies with one-click relink, before/after report. Looks best with the PB UI package installed (shared Pixbakers look and theme).",
       "homepage": "",
       "license": {
         "type": "free"
@@ -615,6 +615,74 @@
       "purchase_url": null,
       "visibility": "listed",
       "versions": [
+        {
+          "version": "0.5.0",
+          "released": "2026-11-26",
+          "changelog": [
+            {
+              "type": "Changed",
+              "text": "0.5.0: new look from the shared PB UI design kit (dark/light theme shared with the other Pixbakers tools, 4K scaling). Without PB UI the panel keeps the plain look and says how to get it."
+            },
+            {
+              "type": "Changed",
+              "text": "Relink to originals asks twice: Max is blocked ~1.5 min while Corona reloads full-resolution maps."
+            },
+            {
+              "type": "Added",
+              "text": "Overview tab: one scan flags heavy meshes, oversized textures, hidden full-mesh proxies and Forest Pack."
+            },
+            {
+              "type": "Added",
+              "text": "Hidden proxies -> point cloud preview (visible proxies untouched)."
+            },
+            {
+              "type": "Added",
+              "text": "Measure last opens from Max.log; downsize only the selected texture rows."
+            },
+            {
+              "type": "Fixed",
+              "text": "Max 2027: texture scan found no maps; JPEG copies of noisy normal maps failed."
+            },
+            {
+              "type": "Changed",
+              "text": "Texture headers read in 16 threads, copies written in 8."
+            },
+            {
+              "type": "Added",
+              "text": "Objects: heaviest geometry, Corona Proxy conversion."
+            },
+            {
+              "type": "Added",
+              "text": "Textures: downsized copies (2K/4K) with one-click relink to originals and back."
+            },
+            {
+              "type": "Added",
+              "text": "Report: before/after log per action."
+            }
+          ],
+          "builds": [
+            {
+              "python": "cp311",
+              "max": {
+                "min": 2025,
+                "max": 2026
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.scene-optimizer-v0.5.0/com.pixbakers.scene-optimizer-0.5.0-cp311.pbpkg",
+              "sha256": "06a099df10a84f1c4a129fc66e79db429cd834bdc4d7e3176905c3a594d7f0bd",
+              "size": 7183387
+            },
+            {
+              "python": "cp313",
+              "max": {
+                "min": 2027,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.scene-optimizer-v0.5.0/com.pixbakers.scene-optimizer-0.5.0-cp313.pbpkg",
+              "sha256": "72386fd613515c8d0bc143be6338cb4765b99498d5512114a3fb70563e3f66ea",
+              "size": 7190619
+            }
+          ]
+        },
         {
           "version": "0.4.1",
           "released": "2026-11-24",
@@ -679,7 +747,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Lehčí a rychleji se otevírající scény: proxy, menší textury, report."
     },
     {
       "id": "com.pixbakers.sm-presety",
