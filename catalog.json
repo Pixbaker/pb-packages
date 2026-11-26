@@ -14,6 +14,32 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.3.0",
+          "released": "2026-11-26",
+          "changelog": [
+            {
+              "type": "Changed",
+              "text": "Panel ve vzhledu PB UI (stejný design jako ostatní nástroje Pixbakers), česky i anglicky podle nastavení PB UI."
+            },
+            {
+              "type": "Added",
+              "text": "Bez PB UI panel funguje v obyčejném vzhledu a nabídne jeho instalaci."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pbpkg-v0.3.0/com.pixbakers.pbpkg-0.3.0-any.pbpkg",
+              "sha256": "a23a7432a6d0245223ae6949b397a021b236d91a2d4e5253660b9b7689211dd8",
+              "size": 43338
+            }
+          ]
+        },
+        {
           "version": "0.2.3",
           "released": "2026-11-24",
           "changelog": [
