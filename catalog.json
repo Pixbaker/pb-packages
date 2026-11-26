@@ -14,6 +14,28 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.5.2",
+          "released": "2026-11-26",
+          "changelog": [
+            {
+              "type": "Fixed",
+              "text": "Přepnutí jazyka v Nastavení se v panelu projeví hned."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pbpkg-v0.5.2/com.pixbakers.pbpkg-0.5.2-any.pbpkg",
+              "sha256": "577880f51ca2bc419e5d66e0a6db940b5f4e2583022a8c55dacc049c0db1cbc4",
+              "size": 61497
+            }
+          ]
+        },
+        {
           "version": "0.5.1",
           "released": "2026-11-26",
           "changelog": [
