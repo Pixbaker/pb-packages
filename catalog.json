@@ -226,6 +226,32 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.2.0",
+          "released": "2026-11-26",
+          "changelog": [
+            {
+              "type": "Changed",
+              "text": "0.2.0: nový vzhled ve stylu Scene Manageru (světlé/tmavé téma v Nastavení, společné pro nástroje Pixbakers), plné vektorové ikony, složky v barvě složky."
+            },
+            {
+              "type": "Added",
+              "text": "Distribuce přes PB Package Manager."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2027,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.nlm-v0.2.0/com.pixbakers.nlm-0.2.0-any.pbpkg",
+              "sha256": "884523a684fffbf447185c302042f75aae42787435c69c1082e03465f8b85062",
+              "size": 100158
+            }
+          ]
+        },
+        {
           "version": "0.1.1",
           "released": "2026-11-25",
           "changelog": [
