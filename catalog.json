@@ -708,6 +708,50 @@
           ]
         }
       ]
+    },
+    {
+      "id": "com.pixbakers.pb-ui",
+      "name": "PB UI",
+      "author": "Pixbakers",
+      "description": "Společný design kit nástrojů Pixbakers: barvy, písmo, ikony a světlé/tmavé téma. Potřebují ho NLM, PB Camera HDRI a PB AI Render.",
+      "homepage": "",
+      "license": {
+        "type": "free"
+      },
+      "purchase_url": null,
+      "visibility": "listed",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "released": "2026-11-26",
+          "changelog": [
+            {
+              "type": "Added",
+              "text": "0.2.0: komponenty z PB AI Render (Rail, Card, Row, Segmented, Stepper, ThumbList, SettingsWindow, ThemeCards, dialogy), 31 ikon navíc, tokeny ok/warn/accent_text/on_accent/canvas/scrim."
+            },
+            {
+              "type": "Fixed",
+              "text": "0.1.1: velikosti se násobí měřítkem obrazovky (na 4K se 150 % je písmo i ikony 1,5× větší jako v Maxu), volitelně klíč scale v ui.json."
+            },
+            {
+              "type": "Added",
+              "text": "První verze: tokeny, stylopis, plné ikony, téma Tmavé/Světlé/Podle Maxu sdílené přes %APPDATA%/Pixbakers/ui.json."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pb-ui-v0.2.0/com.pixbakers.pb-ui-0.2.0-any.pbpkg",
+              "sha256": "f6dea3e54ce5100d33c198f2988d0974efec962bb7bb00178831b82aa1c84b43",
+              "size": 33232
+            }
+          ]
+        }
+      ]
     }
   ]
 }
