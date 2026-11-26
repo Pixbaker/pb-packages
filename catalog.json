@@ -438,6 +438,48 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.2.1",
+          "released": "2026-11-26",
+          "changelog": [
+            {
+              "type": "Changed",
+              "text": "Vzhled z design kitu PB UI (styl Scene Manageru, světlé/tmavé téma, 4K)."
+            },
+            {
+              "type": "Added",
+              "text": "Po ulozeni sceny se tokeny zakazky v SM doplni samy (sablona v maxstartu). Ulozeni presetu zakazku nahradi tokeny."
+            },
+            {
+              "type": "Added",
+              "text": "Token {{zakazka}} = jmeno sceny bez data a cisla verze."
+            },
+            {
+              "type": "Added",
+              "text": "Použít na…: preset na existující složku nebo setup, jeho ostatní skripty zůstanou."
+            },
+            {
+              "type": "Changed",
+              "text": "Neuložená scéna: při načtení presetu se nástroj zeptá na složku zakázky."
+            },
+            {
+              "type": "Added",
+              "text": "První verze: uložení a načtení presetů Scene Manageru 3 včetně skriptů."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.sm-presety-v0.2.1/com.pixbakers.sm-presety-0.2.1-any.pbpkg",
+              "sha256": "05c4babd8720081876a86455b53852b5d5c5825378128a4cdb120133be641636",
+              "size": 7156
+            }
+          ]
+        },
+        {
           "version": "0.2.0",
           "released": "2026-11-25",
           "changelog": [
