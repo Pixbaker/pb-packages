@@ -497,6 +497,86 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.4.1",
+          "released": "2026-11-26",
+          "changelog": [
+            {
+              "type": "Fixed",
+              "text": "0.4.1: Maska z výběru a plný render v dávce už při renderu nezapisují soubory render elementů ani hlavní výstup. Ve verzi 0.4.0 render masky zapsal soubory zapnutých render elementů do jejich nastavených cest."
+            },
+            {
+              "type": "Changed",
+              "text": "0.4.1: Maska z výběru napíše předem, ze kterého viewportu a kamery se renderuje; prázdná maska se ohlásí a do API se nepošle."
+            },
+            {
+              "type": "Changed",
+              "text": "Nový vzhled ve stylu Scene Manageru: levý pruh, seznam s náhledy, karty modulů, tmavé a světlé téma, okno Nastavení."
+            },
+            {
+              "type": "Added",
+              "text": "Kanál jako první krok: Beauty, SourceColor nebo jiný element; chybějící SourceColor jde přidat z panelu."
+            },
+            {
+              "type": "Added",
+              "text": "Velikost výsledku: Originál z modelu, nebo přesně rozlišení renderu."
+            },
+            {
+              "type": "Added",
+              "text": "Výsledky do složky zakázky: scéna v AKCE\\<zakázka>\\max → <zakázka>\\render\\<datum>\\ai."
+            },
+            {
+              "type": "Added",
+              "text": "Historie s náhledy, detailem a tlačítkem Načíst prompt."
+            },
+            {
+              "type": "Added",
+              "text": "Maska z objektů vybraných v Maxu (krátký render jen masek)."
+            },
+            {
+              "type": "Added",
+              "text": "Dávka přes kamery přímo v panelu: náhled Interactive ve zmenšeném rozlišení, kamera se přepíná v pohledu, který se opravdu renderuje, shodné graby jako otázka před odesláním."
+            },
+            {
+              "type": "Added",
+              "text": "Maska: upozornění, když model v masce skoro nic nezměnil, s tlačítkem Zkusit znovu (cena na tlačítku)."
+            },
+            {
+              "type": "Added",
+              "text": "Maska a Oblast: upozornění před generováním, když model vrátí míň pixelů, než má vstup."
+            },
+            {
+              "type": "Added",
+              "text": "Ikona nástroje na liště Pixbakers; vzhled z kitu PB UI (od 0.2.0) se záložní kopií."
+            },
+            {
+              "type": "Fixed",
+              "text": "Grab z VFB u velkých renderů (8bitové PNG, obrázky nad 256 MB)."
+            }
+          ],
+          "builds": [
+            {
+              "python": "cp311",
+              "max": {
+                "min": 2025,
+                "max": 2026
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pb-ai-render-v0.4.1/com.pixbakers.pb-ai-render-0.4.1-cp311.pbpkg",
+              "sha256": "bca83305d1c1d8a5369ae8f2756ff62e10514db72331397ac8040bf554cf93d9",
+              "size": 18901576
+            },
+            {
+              "python": "cp313",
+              "max": {
+                "min": 2027,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pb-ai-render-v0.4.1/com.pixbakers.pb-ai-render-0.4.1-cp313.pbpkg",
+              "sha256": "9d1915104b4aaed5a4faed35fdadefb33f5dfce94350312291ea6842ebf24c31",
+              "size": 18860782
+            }
+          ]
+        },
+        {
           "version": "0.4.0",
           "released": "2026-11-26",
           "changelog": [
