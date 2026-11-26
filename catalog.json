@@ -14,6 +14,36 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.5.0",
+          "released": "2026-11-26",
+          "changelog": [
+            {
+              "type": "Added",
+              "text": "Podstránka každého nástroje (popis, změny, informace, odkazy, místo pro snímky)."
+            },
+            {
+              "type": "Added",
+              "text": "Okno Nastavení s levou navigací (obecné, aktualizace, lišta, vzhled, úložiště, vývojář)."
+            },
+            {
+              "type": "Changed",
+              "text": "Karty ukazují krátký popisek (nové pole summary v manifestu)."
+            }
+          ],
+          "builds": [
+            {
+              "python": "any",
+              "max": {
+                "min": 2025,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pbpkg-v0.5.0/com.pixbakers.pbpkg-0.5.0-any.pbpkg",
+              "sha256": "6dca9062270dd03ff9fa8e5286aff16d953dbb02a40ae97241ac76f05d048772",
+              "size": 60960
+            }
+          ]
+        },
+        {
           "version": "0.4.0",
           "released": "2026-11-26",
           "changelog": [
@@ -249,7 +279,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": "Instaluje a aktualizuje nástroje Pixbakers z jednoho místa."
     },
     {
       "id": "com.pixbakers.hello",
