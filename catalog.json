@@ -497,6 +497,78 @@
       "visibility": "listed",
       "versions": [
         {
+          "version": "0.4.0",
+          "released": "2026-11-26",
+          "changelog": [
+            {
+              "type": "Changed",
+              "text": "Nový vzhled ve stylu Scene Manageru: levý pruh, seznam s náhledy, karty modulů, tmavé a světlé téma, okno Nastavení."
+            },
+            {
+              "type": "Added",
+              "text": "Kanál jako první krok: Beauty, SourceColor nebo jiný element; chybějící SourceColor jde přidat z panelu."
+            },
+            {
+              "type": "Added",
+              "text": "Velikost výsledku: Originál z modelu, nebo přesně rozlišení renderu."
+            },
+            {
+              "type": "Added",
+              "text": "Výsledky do složky zakázky: scéna v AKCE\\<zakázka>\\max → <zakázka>\\render\\<datum>\\ai."
+            },
+            {
+              "type": "Added",
+              "text": "Historie s náhledy, detailem a tlačítkem Načíst prompt."
+            },
+            {
+              "type": "Added",
+              "text": "Maska z objektů vybraných v Maxu (krátký render jen masek)."
+            },
+            {
+              "type": "Added",
+              "text": "Dávka přes kamery přímo v panelu: náhled Interactive ve zmenšeném rozlišení, kamera se přepíná v pohledu, který se opravdu renderuje, shodné graby jako otázka před odesláním."
+            },
+            {
+              "type": "Added",
+              "text": "Maska: upozornění, když model v masce skoro nic nezměnil, s tlačítkem Zkusit znovu (cena na tlačítku)."
+            },
+            {
+              "type": "Added",
+              "text": "Maska a Oblast: upozornění před generováním, když model vrátí míň pixelů, než má vstup."
+            },
+            {
+              "type": "Added",
+              "text": "Ikona nástroje na liště Pixbakers; vzhled z kitu PB UI (od 0.2.0) se záložní kopií."
+            },
+            {
+              "type": "Fixed",
+              "text": "Grab z VFB u velkých renderů (8bitové PNG, obrázky nad 256 MB)."
+            }
+          ],
+          "builds": [
+            {
+              "python": "cp311",
+              "max": {
+                "min": 2025,
+                "max": 2026
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pb-ai-render-v0.4.0/com.pixbakers.pb-ai-render-0.4.0-cp311.pbpkg",
+              "sha256": "12af2822b707a7b76cc6aab23f8583c59fd383ae8d469afb7029aa23e898b582",
+              "size": 18900025
+            },
+            {
+              "python": "cp313",
+              "max": {
+                "min": 2027,
+                "max": 2027
+              },
+              "url": "https://github.com/Pixbaker/pb-packages/releases/download/com.pixbakers.pb-ai-render-v0.4.0/com.pixbakers.pb-ai-render-0.4.0-cp313.pbpkg",
+              "sha256": "aee1fc5a132774769ae3fb36306daf0b90446cb6f00fbf48c09b1db322fcc413",
+              "size": 18859231
+            }
+          ]
+        },
+        {
           "version": "0.3.9",
           "released": "2026-11-24",
           "changelog": [
@@ -528,7 +600,8 @@
             }
           ]
         }
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "com.pixbakers.scene-optimizer",
